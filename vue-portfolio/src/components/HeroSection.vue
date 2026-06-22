@@ -63,7 +63,7 @@ import profileImg from '../assets/img.png';
   font-size: 3.5rem;
 }
 .home-content h1 {
-  font-size: 7rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1;
