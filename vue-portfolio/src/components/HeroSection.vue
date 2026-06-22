@@ -1,5 +1,5 @@
 <script setup>
-import profileImg from '../assets/img1.jpeg';
+import profileImg from '../assets/photo proffessionnelle noura.png';
 </script>
 
 <template>
