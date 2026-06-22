@@ -33,7 +33,7 @@ import profileImg from '../assets/img.png';
       </div>
     </div>
 
-    <div class="home-img">
+    <!-- <div class="home-img">
       <img :src="profileImg" alt="Photo de Mounia Ouattara" />
       <svg class="code-ring" viewBox="0 0 500 500">
         <defs>
@@ -60,7 +60,7 @@ import profileImg from '../assets/img.png';
           </textPath>
         </text>
       </svg>
-    </div>
+    </div> -->
   </section>
 </template>
 
