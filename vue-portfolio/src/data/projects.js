@@ -16,7 +16,7 @@ export const projects = [
     title: 'My_show_time',
     description: 'Description à compléter', // TODO : c'est quoi le concept de l'app ?
     image: null,
-    demoUrl: null, // TODO : lien si déployé
+    demoUrl: 'https://show-time-qn4t.onrender.com/', 
   },
   {
     title: 'Dashboard',
