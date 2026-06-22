@@ -114,6 +114,10 @@ form textarea {
   form {
     flex-direction: column;
   }
+  .contact .heading {
+    font-size: 3.5rem; /* Ajustez la valeur selon vos besoins */
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -124,6 +128,10 @@ form textarea {
   form textarea {
     padding: 1.4rem;
     font-size: 1.4rem;
+  }
+  .contact .heading {
+    font-size: 2.8rem; /* Plus petit pour les mobiles */
+    margin-bottom: 1.5rem;
   }
 }
 </style>
