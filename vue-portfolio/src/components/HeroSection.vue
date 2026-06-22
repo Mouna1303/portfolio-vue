@@ -85,6 +85,8 @@ import profileImg from '../assets/img.png';
   position: relative;
   top: 3rem;
   width: 32vw;
+  height: 32vw;
+  object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
