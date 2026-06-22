@@ -33,34 +33,9 @@ import profileImg from '../assets/img.png';
       </div>
     </div>
 
-    <!-- <div class="home-img">
-      <img :src="profileImg" alt="Photo de Mounia Ouattara" />
-      <svg class="code-ring" viewBox="0 0 500 500">
-        <defs>
-          <path
-            id="circle-path"
-            d="M 250,250
-               m -240,0
-               a 240,240 0 1,1 480,0
-               a 240,240 0 1,1 -480,0"
-          />
-        </defs>
-        <text
-          fill="#ffffff"
-          style="fill: #ffffff !important"
-          font-family="Courier New"
-          font-size="18"
-          font-weight="bold"
-        >
-          <textPath href="#circle-path" spacing="auto">
-            &#160;print("Croit en toi") &#160;|&#160; if toi == forte:
-            &#160;|&#160; &#160;succeed() &#160;|&#160; def
-            croit_en_toi(): &#160;|&#160; &#160;return True &#160;|&#160;
-            while reve: &#160;|&#160; &#160;avance() &#160;|&#160;
-          </textPath>
-        </text>
-      </svg>
-    </div> -->
+    <div class="home-img">
+  <img :src="profileImg" alt="Photo de Mounia Ouattara" />
+</div>
   </section>
 </template>
 
@@ -103,24 +78,9 @@ import profileImg from '../assets/img.png';
   position: relative;
   overflow: visible;
 }
-.code-ring {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 48vw;
-  height: 40vw;
-  animation: spinRing 20s linear infinite;
-  pointer-events: none;
-}
-@keyframes spinRing {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
+
+
+
 .home-img img {
   position: relative;
   top: 3rem;
