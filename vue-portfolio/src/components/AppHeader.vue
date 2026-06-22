@@ -141,4 +141,33 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll));
     color: white;
   }
 }
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 2.2rem;
+  }
+  .navbar {
+    width: 70%;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    padding: 1.5rem 4%;
+    height: 64px;
+  }
+  .logo {
+    font-size: 1.8rem;
+  }
+  .bx-menu {
+    font-size: 2.8rem;
+  }
+  .navbar {
+    width: 85%;
+  }
+  .navbar a {
+    font-size: 1.7rem;
+    margin: 2rem 0;
+  }
+}
 </style>

@@ -210,4 +210,22 @@ function nextPage() {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .project-body {
+    padding: 1.8rem 1.8rem 2.2rem;
+  }
+  .project-card h3 {
+    font-size: 2rem;
+  }
+  .project-card p {
+    font-size: 1.3rem;
+  }
+  .page-arrow,
+  .page-dot {
+    width: 3.4rem;
+    height: 3.4rem;
+    font-size: 1.4rem;
+  }
+}
 </style>

@@ -115,4 +115,21 @@ import { educationItems } from '../data/education.js';
     left: 0;
   }
 }
+
+@media (max-width: 480px) {
+  .education {
+    padding: 70px 12px;
+  }
+  .timeline-content {
+    padding: 20px 25px;
+    border-radius: 2rem;
+  }
+  .timeline-content h3 {
+    font-size: 17px;
+  }
+  .timeline-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 </style>

@@ -115,4 +115,15 @@ form textarea {
     flex-direction: column;
   }
 }
+
+@media (max-width: 480px) {
+  form {
+    margin: 3rem auto;
+  }
+  .input-box input,
+  form textarea {
+    padding: 1.4rem;
+    font-size: 1.4rem;
+  }
+}
 </style>
